@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Shortener</title>
+  </head>
+  <body>
+    <h1>Enter a URL to shorten:</h1>
+    <form method="POST">
+      <div class = "form-group">
+        <input type="text" name="url" placeholder="Enter URL" required>
+      </div>
+      <input class="btn btn-primary" type="submit" name="shorten" value="Submit">
+    </form>
+
+    <h1>Get the Original URL:</h1>
+    <form method="POST">
+      <div class = "form-group">
+        <input type="text" name="short_url" placeholder="Enter URL" required>
+      </div>
+      <input class="btn btn-primary" type="submit" name="retrieve" value="Submit">
+    </form>
+  </body>
+</html>
