@@ -19,7 +19,7 @@ def main():
 
             if short_url:
                 return f"""
-                <p>Your shortened URL is: <a href='/{short_url}'>{short_url}</a></p>
+                <p>Your shortened URL is: <a href='{short_url}'>{short_url}</a></p>
                 <a href='/'><button>Back to Form</button></a>
                 """
             else:
@@ -37,7 +37,7 @@ def main():
             if original_url:
                 return f"""
                 <p>The original URL for the Short URL <span style='color: green;'>{short_url}
-                </span> is: <a href='/{original_url}'>{original_url}</a></p>
+                </span> is: <a href='{original_url}'>{original_url}</a></p>
                 <a href='/'><button>Back to Form</button></a>
                 """
             else:
