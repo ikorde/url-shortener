@@ -37,7 +37,7 @@ This project requires the following Python libraries:
 ## Further Development
 Given more time to refine this project I would make the following updates: 
 
- - Deploy the app to a public server"
+ - Deploy the app to a public server
  - Refine the UI for displaying the result, it is repetitive and verbose right now, writing a template for this would be better.
  - Add functionality to generate custom URLS. I utilized the pyshorteners library here for the sake of efficiency. 
  - If this needed to scale, I would utilize a more robust database, such as PostgreSQL, that is hosted on a server rather than using PickleDB. I would also implement caching in case of a spike in hits to a particular URL.
